@@ -1,0 +1,22 @@
+{
+    
+    "appenders": {
+        "console": {
+            "type": "log4js-protractor-appender",
+            "category": "protractorLog4js"
+        },
+    "file": {
+        "category": "protractorLog4js",
+        "type": "dateFile",
+        "filename": "./Logs/MyProjectsuite.log",
+        "maxLogSize": 10485760,
+        "backups": 3,
+        "pattern": "-yyyy-MM-dd"
+    }
+    },
+    "categories": {
+        "default": {"appenders": ["console", "file"], "level": "DEBUG"},
+        "file": {"appenders": ["file"], "level": "DEBUG"}
+    }
+    
+}

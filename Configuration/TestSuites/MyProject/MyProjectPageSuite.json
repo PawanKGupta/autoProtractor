@@ -1,0 +1,33 @@
+{
+    "requestTile": [
+        "./../Test/MyProject/TestSuites/CustomerPortal/HomePage/RequestTile/ViewAllRequest/ViewAllRequest.js", 
+        "./../Test/MyProject/TestSuites/CustomerPortal/HomePage/RequestTile/RequestListValidation/RequestListValidation.js",
+        "./../Test/MyProject/TestSuites/CustomerPortal/HomePage/RequestTile/Requesttilevalidatecount/Requesttilevalidatecount.js",
+        "./../Test/MyProject/TestSuites/CustomerPortal/HomePage/RequestTile/RequestTitleValidation/TiltleValidation.js"
+    ],
+    "quickCallTile": [
+        "./../Test/MyProject/TestSuites/CustomerPortal/HomePage/QuickCallsTile/QuicCallsTitleValidation/QuickCallsTiltleValidation.js",
+        "./../Test/MyProject/TestSuites/CustomerPortal/HomePage/QuickCallsTile/QuickCallsTileValidateCount/QuickCallsTileValidateCount.js",
+        "./../Test/MyProject/TestSuites/CustomerPortal/HomePage/QuickCallsTile/ViewAllQuickCall/ViewAllQuickCall.js",
+        "./../Test/MyProject/TestSuites/CustomerPortal/HomePage/QuickCallsTile/QuickCallsListValidation/QuickCallsListValidation.js"
+    ],
+    "kbTile": [
+        "./../Test/MyProject/TestSuites/CustomerPortal/HomePage/KnowledgeBaseTile/KnowledgeBaseTitleValidation/KnowledgeBaseTitleValidation.js",
+        "./../Test/MyProject/TestSuites/CustomerPortal/HomePage/KnowledgeBaseTile/ViewAllKnowledgeBase/ViewAllKnowledgeBase.js",
+        "./../Test/MyProject/TestSuites/CustomerPortal/HomePage/KnowledgeBaseTile/KnowledgeBaseListValidation/KnowledgeBaseListValidation.js",
+        "./../Test/MyProject/TestSuites/CustomerPortal/HomePage/KnowledgeBaseTile/KnowledgeBaseValidationCount/KnowledgeBaseValidationCount.js"
+    ],
+    "plannedoutagesTile":[
+        "./../Test/MyProject/TestSuites/CustomerPortal/HomePage/PlannedOutagesTile/PlannedOutagesTileValidateCount/PlannedOutagesTileValidateCount.js",
+        "./../Test/MyProject/TestSuites/CustomerPortal/HomePage/PlannedOutagesTile/PlannedOutagesTitleValidation/PlannedOutagesTiltleValidation.js",
+        "./../Test/MyProject/TestSuites/CustomerPortal/HomePage/PlannedOutagesTile/ViewAllPlannedOutages/ViewAllPlannedOutages.js",
+        "./../Test/MyProject/TestSuites/CustomerPortal/HomePage/PlannedOutagesTile/PlannedOutagesListValidation/PlannedOutagesListValidation.js"
+    
+    ],
+    "surveyTile": [
+        "./../Test/MyProject/TestSuites/CustomerPortal/HomePage/SurvyesTile/SurveyListValidation/SurveyListValidation.js", 
+        "./../Test/MyProject/TestSuites/CustomerPortal/HomePage/SurvyesTile/SurveyTileValidateCount/SurveyTileValidateCount.js",
+        "./../Test/MyProject/TestSuites/CustomerPortal/HomePage/SurvyesTile/SurveyTitleValidation/SurveyTiltleValidation.js",
+        "./../Test/MyProject/TestSuites/CustomerPortal/HomePage/SurvyesTile/ViewAllSurvey/ViewAllSurvey.js"
+    ]  
+}

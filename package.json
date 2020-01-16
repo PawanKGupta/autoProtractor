@@ -1,0 +1,34 @@
+{
+  "name": "example-typescript",
+  "version": "1.0.0",
+  "description": "a typescript example",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "tsc": "tsc",
+    "prestart": "webdriver-manager update",
+    "start": "webdriver-manager shutdown && webdriver-manager start --detach",
+    "pretest": "npm start && npm run lint && npm run tsc",
+    "test": "protractor outputjs/Configuration/conf.js",
+    "posttest": "webdriver-manager shutdown",
+    "lint": "tslint --force \"./*.ts\"",
+    "webdriver-start": "webdriver-manager start",
+    "runAllTestCases": "npm test"
+  },
+  "dependencies": {
+    "@types/jasmine": "^2.8.16",
+    "log4js-protractor-appender": "^1.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^10.5.8",
+    "jasmine": "3.1.0",
+    "log4js": "6.1.0",
+    "protractor": "5.4.2",
+    "protractor-beautiful-reporter": "^1.3.6",
+    "tslint": "^5.20.1",
+    "tslint-loader": "3.5.4",
+    "typescript": "~2.9.0"
+  },
+  "main": "index.js",
+  "keywords": []
+}
