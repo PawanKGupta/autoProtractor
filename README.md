@@ -93,7 +93,7 @@ Running a suite:
 1. Import the suites.ts file into the conf.ts file.
 2. Under suites, import the master suite using it's class name. (ex. suites: suite.HomePageSuite)
 3. Open the command line under autoProtractor folder.
-4. run the command "npm -- --suite yourSuiteName"
+4. run the command "npm test -- --suite yourSuiteName"
 
 Running a single testcase:
 1. In conf.ts file, under specs list, mention the testcase path which you want to run.
